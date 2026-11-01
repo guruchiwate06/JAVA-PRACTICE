@@ -1,0 +1,29 @@
+# ==========================================
+# NetBeans & Java Git Ignore
+# ==========================================
+
+# Exclude Mini Project (pushed to its own repo)
+MINIPROJECT/
+DentFlow_Project.zip
+
+# Exclude local Tomcat server installation
+tomcat10/
+
+# NetBeans user-specific settings (contains local system paths)
+**/nbproject/private/
+
+# Build and distribution artifacts
+**/build/
+**/dist/
+*.class
+
+# Windows / OS metadata
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Temporary and log files
+*.log
+*.tmp

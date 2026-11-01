@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>SHOPPIN CART</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="AddServlet" method="POST">
+            Select Product:
+            <select name="pname">
+                <option value="Orange">orange</option>
+                <option value="Apple">Apple</option>
+                <option value="Banana">Banana</option>
+            </select>
+            <br> 
+            <br> 
+            Quantity:
+            <input type="text" name="qty">
+            <br>
+            <br> 
+            <br> 
+            <input type="submit" value="ADD to Cart">
+            <br><!-- comment -->
+            Click here to <a href="ViewCart">View</a>
+            <br><!-- comment -->
+            Click here to <a href="ClearCart">Remove Products</a>
+            <br><!-- comment -->
+            Click here to <a href="RemoveCart">Remove Cart</a>
+        </form>
+    </body>
+</html>
